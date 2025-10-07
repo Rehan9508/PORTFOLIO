@@ -53,6 +53,11 @@
   "engines": {
     "node": "22.x"
   },
+  "overrides": {
+    "react-github-calendar": {
+      "react": "^17.0.1"
+    }
+  },
   "devDependencies": {
     "nodemon": "^3.0.1"
   }
