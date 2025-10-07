@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 node_modules/
 .env
 .DS_Store
@@ -7,3 +8,6 @@ yarn-error.log
 .idea/
 *.log
 
+=======
+node_modules
+>>>>>>> 4c5bbb3a71d18b46d1b83a581e744fa24bc2927e
