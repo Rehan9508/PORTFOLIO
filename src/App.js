@@ -14,6 +14,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import ReactGA from "react-ga";
 
 import ScrollToTop from "./components/ScrollToTop";
+import BackgroundContainer from "./components/BackgroundContainer";
 
 ReactGA.initialize("G-KN1E14N8YK");
 
@@ -37,9 +38,21 @@ function App() {
           <ScrollToTop />
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/project" component={Projects} />
-            <Route path="/about" component={About} />
-            <Route path="/download-cv" component={DownloadCV} />
+            <Route path="/project" render={() => (
+              <BackgroundContainer>
+                <Projects />
+              </BackgroundContainer>
+            )} />
+            <Route path="/about" render={() => (
+              <BackgroundContainer>
+                <About />
+              </BackgroundContainer>
+            )} />
+            <Route path="/download-cv" render={() => (
+              <BackgroundContainer>
+                <DownloadCV />
+              </BackgroundContainer>
+            )} />
           </Switch>
           <Footer />
         </div>

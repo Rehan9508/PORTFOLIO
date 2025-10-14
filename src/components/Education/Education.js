@@ -15,13 +15,15 @@ function Education() {
       institution: "Allama Iqbal College",
       degree: "12th Grade",
       location: "BiharSharif(Nalanda), India",
-      period: "Intermediate – 79%, May 2020"
+      period: "Intermediate – 79%, May 2020",
+      certificate: "https://drive.google.com/file/d/14-feDJWll8l1EwIWLkp_aBe93iOCxNPR/view?usp=drive_link"
     },
     {
       institution: "ShantiKunj Public School",
       degree: "10th Grade",
       location: "Jehanabad, India",
-      period: "Matriculation – 63%, May 2018"
+      period: "Matriculation – 63%, May 2018",
+      certificate: "https://drive.google.com/file/d/1wS5rAPER-tPJ6Eo84z54Y5WJM_XyqvoG/view?usp=drive_link"
     }
   ];
 
@@ -50,6 +52,18 @@ function Education() {
                     <p className="education-degree">{edu.degree}</p>
                     <p className="education-location"><em>{edu.location}</em></p>
                     <p className="education-period">{edu.period}</p>
+                    {edu.certificate && (
+                      <p className="education-certificate">
+                        <a 
+                          href={edu.certificate} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          style={{ color: '#00bcd4', textDecoration: 'none' }}
+                        >
+                          🔗 View Certificate
+                        </a>
+                      </p>
+                    )}
                   </div>
                 </div>
               ))}

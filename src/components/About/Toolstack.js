@@ -2,17 +2,17 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiLinux,
-  SiVisualstudiocode,
   SiJupyter,
   SiGooglecolab,
   SiAnaconda,
   SiGithub,
   SiIntellijidea,
 } from "react-icons/si";
+import { FaCode } from "react-icons/fa";
 
 function Toolstack() {
   const tools = [
-    { name: 'VS Code', icon: <SiVisualstudiocode />, color: '#007ACC' },
+    { name: 'VS Code', icon: <FaCode />, color: '#007ACC' },
     { name: 'IntelliJ IDEA', icon: <SiIntellijidea />, color: '#000000' },
     { name: 'Jupyter', icon: <SiJupyter />, color: '#F37626' },
     { name: 'Google Colab', icon: <SiGooglecolab />, color: '#F9AB00' },

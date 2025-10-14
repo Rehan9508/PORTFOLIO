@@ -16,7 +16,7 @@ function Techstack() {
   const programmingLanguages = [
     { name: 'Python', icon: <DiPython />, color: '#3776ab' },
     { name: 'Java', icon: <DiJava />, color: '#f89820' },
-    { name: 'C++', icon: <CgCPlusPlus />, color: '#00599c' },
+    { name: 'C', icon: <CgCPlusPlus />, color: '#00599c' },
     { name: 'Flask', icon: <SiFlask />, color: '#000000' },
     { name: 'HTML5', icon: <DiHtml5 />, color: '#e34f26' },
     { name: 'CSS3', icon: <DiCss3 />, color: '#1572b6' },

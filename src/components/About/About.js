@@ -4,7 +4,9 @@ import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Libraries from "./Libraries";
 import DataAnalysis from "./DataAnalysis";
+import DatabaseManagement from "./DatabaseManagement";
 import Aboutcard from "./AboutCard";
+import Experience from "./Experience";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import ReactGA from "react-ga";
@@ -41,6 +43,8 @@ function About() {
           </Col>
         </Row>
         
+        <Experience />
+        
             <div className="skills-section-wrapper">
               <div className="skills-header">
                 <h1 className="skills-main-title text-rainbow">
@@ -70,14 +74,20 @@ function About() {
               <DataAnalysis />
             </div>
 
+            <div className="database-management-section-wrapper">
+              <div className="database-management-header">
+                <h1 className="database-management-main-title text-rainbow">
+                  Database Management
+                </h1>
+              </div>
+              <DatabaseManagement />
+            </div>
+
         <div className="tools-section-wrapper">
           <div className="tools-header">
             <h1 className="tools-main-title text-rainbow">
               Tools I use
             </h1>
-            <p className="tools-subtitle">
-              Development environment and productivity tools
-            </p>
           </div>
           <Toolstack />
         </div>
