@@ -26,23 +26,19 @@ function Home() {
 
     window.addEventListener('mousemove', handleMouseMove);
 
-    // Ensure video plays and loops
+    // Ensure background video auto-plays and loops silently
     const videoElement = videoRef.current;
     if (videoElement) {
       const playVideo = () => {
-        videoElement.play().catch(console.log);
+        videoElement.play().catch(() => {});
       };
-      
       videoElement.addEventListener('loadeddata', playVideo);
       videoElement.addEventListener('canplay', playVideo);
-      
       videoElement.addEventListener('ended', () => {
         videoElement.currentTime = 0;
         playVideo();
       });
-      
-      // Force play after a short delay
-      setTimeout(playVideo, 1000);
+      setTimeout(playVideo, 300);
     }
 
     return () => {
@@ -102,26 +98,16 @@ function Home() {
         
         {/* Background Video */}
         <div className="background-video">
-          <video 
+          <video
             ref={videoRef}
-            autoPlay 
-            loop 
-            muted 
+            autoPlay
+            loop
+            muted
             playsInline
             className="video-element"
             preload="auto"
-            onCanPlay={(e) => {
-              e.target.play().catch(console.log);
-            }}
-            onEnded={(e) => {
-              e.target.currentTime = 0;
-              e.target.play().catch(console.log);
-            }}
-            onError={(e) => {
-              console.log('Video error:', e);
-            }}
           >
-            <source src="/v4.mp4" type="video/mp4" />
+            <source src="/V7.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
