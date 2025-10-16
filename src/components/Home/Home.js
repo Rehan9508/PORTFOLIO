@@ -107,7 +107,7 @@ function Home() {
             className="video-element"
             preload="auto"
           >
-            <source src="/V7.mp4" type="video/mp4" />
+            <source src="/v7.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
