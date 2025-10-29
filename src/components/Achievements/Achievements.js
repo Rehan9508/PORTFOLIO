@@ -27,7 +27,7 @@ function Achievements() {
       title: "Cisco Python Essentials 1 Course",
       description: "I've successfully completed the Python Essentials 1 course with the Cisco Networking Academy, in collaboration with the OpenEDG Python Institute! 🎉",
       year: "2024",
-      link: "https://drive.google.com/file/d/1r1epXLfi8S7dOd2wU-5OoI7DgO2AKUSA/view"
+      link: "https://drive.google.com/file/d/1tsJlx03I22QR4i1ohwXs0y0BeCr4eAc4/view"
     },
     {
       title: "CodeTantra Data Structures and Algorithms",
