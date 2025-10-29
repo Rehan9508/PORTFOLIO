@@ -43,13 +43,15 @@ app.get('/health', (req, res) => {
 const buildPath = path.join(__dirname, 'build');
 app.use(express.static(buildPath));
 
-// SPA fallback (Express v5 compatible)
-app.get('/*', (req, res) => {
-  try {
-    res.sendFile(path.join(buildPath, 'index.html'));
-  } catch (e) {
-    res.status(200).json({ message: 'Portfolio service', status: 'ok' });
-  }
+// SPA fallback (Express v5 compatible) - must be last route
+// API routes and static files are already handled above
+app.use((req, res) => {
+  // Serve index.html for all SPA routes
+  res.sendFile(path.join(buildPath, 'index.html'), (err) => {
+    if (err) {
+      res.status(500).json({ message: 'Error serving application', error: err.message });
+    }
+  });
 });
 
 // Start server
