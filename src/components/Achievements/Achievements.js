@@ -33,7 +33,7 @@ function Achievements() {
       title: "CodeTantra Data Structures and Algorithms",
       description: "I've completed the CodeTantra course in DATA STRUCTURE AND ALGORITHMS using C and received my certificate! It's been an incredible journey of learning and growth, and I can't wait to apply my newfound skills in the world of DATA SCIENCE. Here's to embracing new challenges and making a meaningful impact!",
       year: "2024",
-      link: "https://drive.google.com/file/d/1c3LdNFvTw4vPyuT9C3FncE7IvEUGQL8i/view"
+      link: "https://drive.google.com/file/d/1OnfAtN3ZktWbavV_vEC6ZC13qeGKh1_S/view"
     },
     {
       title: "EcoSmart Hackathon 2025",
