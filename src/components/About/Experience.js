@@ -82,7 +82,7 @@ function Experience() {
                   </p>
                   <p>
                     <a 
-                      href="https://drive.google.com/file/d/1sW8_xurrX-HQFhGHpw8SXZ3GnRey2Wb6/view" 
+                      href="https://drive.google.com/file/d/1oErUn3Nsnue1uVSaGQycTql92v1_o9iJ/view" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       style={{ color: '#4169E1', textDecoration: 'none' }}
