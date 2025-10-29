@@ -15,7 +15,7 @@ function Achievements() {
       title: "Agentic AI Website Automation Hackathon Winner",
       description: "I Won the Agentic AI Website Automation Hackathon last month from August 13th – 15th, 2025 held at Centurion University of Technology and Management, Vizianagaram.",
       year: "2025",
-      link: "https://drive.google.com/file/d/1sW8_xurrX-HQFhGHpw8SXZ3GnRey2Wb6/view"
+      link: "https://drive.google.com/file/d/1oErUn3Nsnue1uVSaGQycTql92v1_o9iJ/view?usp=drive_link"
     },
     {
       title: "CodSoft Machine Learning Internship",
