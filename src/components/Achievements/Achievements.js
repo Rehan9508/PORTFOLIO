@@ -9,7 +9,7 @@ function Achievements() {
       title: "GeeksForGeeks CERTIFICATE",
       description: "GeeksForGeeks CERTIFICATE has successfully completed a 16-week course on GeeksForGeeks CUTM Training Program - Paralakhemundi Campus. Here's the certification link for verification",
       year: "2025",
-      link: "https://drive.google.com/file/d/19pR9Vd7BD0FKDR-R2XcLQXbHTTwJmIVW/view"
+      link: "https://drive.google.com/file/d/1zTtg8JP4OuoJXs9hW4k_x1TAseYjIyd3/view?usp=drive_link"
     },
     {
       title: "Agentic AI Website Automation Hackathon Winner",
