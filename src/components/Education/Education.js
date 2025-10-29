@@ -23,7 +23,7 @@ function Education() {
       degree: "10th Grade",
       location: "Jehanabad, India",
       period: "Matriculation – 63%, May 2018",
-      certificate: "https://drive.google.com/file/d/1wS5rAPER-tPJ6Eo84z54Y5WJM_XyqvoG/view?usp=drive_link"
+      certificate: "https://drive.google.com/file/d/18bubq-9CjFH1w6qNtY7TyCDw33I898OE/view?usp=drive_link"
     }
   ];
 
