@@ -26,7 +26,7 @@ function DownloadCV() {
               </p>
               <Button 
                 variant="primary" 
-                href="https://drive.google.com/file/d/1DesV9_ynWaeRGsNpBmBitAu-l_OI5AeH/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1gJdw_j89u-TiQBJaLGbjeF-XRXmbRdTL/view?usp=drive_link"
                 target="_blank"
                 size="lg"
                 style={{

@@ -9,6 +9,7 @@ import Aboutcard from "./AboutCard";
 import Experience from "./Experience";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import Concepts from "./Concepts";
 import ReactGA from "react-ga";
 import { FaCog } from "react-icons/fa";
 
@@ -72,6 +73,15 @@ function About() {
                 </h1>
               </div>
               <DataAnalysis />
+            </div>
+
+            <div className="data-analysis-section-wrapper">
+              <div className="data-analysis-header">
+                <h1 className="data-analysis-main-title text-rainbow">
+                  Concepts
+                </h1>
+              </div>
+              <Concepts />
             </div>
 
             <div className="database-management-section-wrapper">

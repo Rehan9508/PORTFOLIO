@@ -16,14 +16,14 @@ function Education() {
       degree: "12th Grade",
       location: "BiharSharif(Nalanda), India",
       period: "Intermediate – 79%, May 2020",
-      certificate: "https://drive.google.com/file/d/14-feDJWll8l1EwIWLkp_aBe93iOCxNPR/view?usp=drive_link"
+      certificate: "https://drive.google.com/file/d/1R2JXSsUoFFm6r09sRHJmRGJ4VL7BNzuD/view?usp=drive_link"
     },
     {
       institution: "ShantiKunj Public School",
       degree: "10th Grade",
       location: "Jehanabad, India",
       period: "Matriculation – 63%, May 2018",
-      certificate: "https://drive.google.com/file/d/1wS5rAPER-tPJ6Eo84z54Y5WJM_XyqvoG/view?usp=drive_link"
+      certificate: "https://drive.google.com/file/d/18bubq-9CjFH1w6qNtY7TyCDw33I898OE/view?usp=drive_link"
     }
   ];
 

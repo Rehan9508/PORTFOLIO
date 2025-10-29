@@ -1,3 +1,4 @@
+const path = require('path');
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
@@ -13,17 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 // In-memory storage (for demo - use MongoDB for production)
 let likesCount = 0;
 
-// Routes
-app.get('/', (req, res) => {
-  res.json({ 
-    message: 'Portfolio Backend API',
-    status: 'Running',
-    endpoints: {
-      getLikes: 'GET /likes/getLikes',
-      updateLikes: 'POST /likes/updateLikes'
-    }
-  });
-});
+// API Routes
 
 // Get likes count
 app.get('/likes/getLikes', (req, res) => {
@@ -46,6 +37,19 @@ app.post('/likes/updateLikes', (req, res) => {
 // Health check
 app.get('/health', (req, res) => {
   res.json({ status: 'healthy' });
+});
+
+// Serve frontend build in production
+const buildPath = path.join(__dirname, 'build');
+app.use(express.static(buildPath));
+
+// SPA fallback
+app.get('*', (req, res) => {
+  try {
+    res.sendFile(path.join(buildPath, 'index.html'));
+  } catch (e) {
+    res.status(200).json({ message: 'Portfolio service', status: 'ok' });
+  }
 });
 
 // Start server

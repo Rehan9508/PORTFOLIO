@@ -39,7 +39,7 @@ function Experience() {
                   </p>
                   <p>
                     <a 
-                      href="https://www.geeksforgeeks.org/batch/placement-prep-paralakhemundi?tab=Contest" 
+                      href="https://www.geeksforgeeks.org/user/rehan_mallick_065/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       style={{ color: '#4169E1', textDecoration: 'none' }}
@@ -82,7 +82,7 @@ function Experience() {
                   </p>
                   <p>
                     <a 
-                      href="https://drive.google.com/file/d/1sW8_xurrX-HQFhGHpw8SXZ3GnRey2Wb6/view" 
+                      href="https://drive.google.com/file/d/1oErUn3Nsnue1uVSaGQycTql92v1_o9iJ/view" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       style={{ color: '#4169E1', textDecoration: 'none' }}
@@ -121,7 +121,7 @@ function Experience() {
                   </p>
                   <p>
                     <a 
-                      href="https://drive.google.com/file/d/1xLlid_Q94RjDp-urfXnUMa1zh-q_-FTD/view?usp=drive_link" 
+                      href="https://drive.google.com/file/d/1Jq23GkvCIxaki-FtFuQ89dELn4dLdr6a/view?usp=drive_link" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       style={{ color: '#4169E1', textDecoration: 'none' }}

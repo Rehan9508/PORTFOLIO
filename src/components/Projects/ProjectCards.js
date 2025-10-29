@@ -20,7 +20,7 @@ function ProjectCards(props) {
         >
           <Button variant="primary" href={props.link} target="_blank">
             <BiLinkExternal /> &nbsp;
-            View Project
+            View Code
           </Button>
           {props.liveLink && (
             <Button variant="primary" href={props.liveLink} target="_blank">
