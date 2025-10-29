@@ -21,7 +21,7 @@ function Achievements() {
       title: "CodSoft Machine Learning Internship",
       description: "I have successfully completed a 4-week virtual internship program in Machine Learning at CodSoft. This incredible opportunity allowed me to explore cutting-edge technologies, sharpen my skills, and contribute to impactful projects.",
       year: "2024",
-      link: "https://drive.google.com/file/d/1DesrUBAi3V5F5Qu5du_iWr5HvcbsKCfb/view"
+      link: "https://drive.google.com/file/d/1pWsKw1Dv3Q71T5roPgrU1n1uRGtJsGGk/view"
     },
     {
       title: "Cisco Python Essentials 1 Course",
