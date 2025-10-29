@@ -43,8 +43,8 @@ app.get('/health', (req, res) => {
 const buildPath = path.join(__dirname, 'build');
 app.use(express.static(buildPath));
 
-// SPA fallback
-app.get('*', (req, res) => {
+// SPA fallback (Express v5 compatible)
+app.get('/*', (req, res) => {
   try {
     res.sendFile(path.join(buildPath, 'index.html'));
   } catch (e) {
