@@ -39,7 +39,7 @@ function Achievements() {
       title: "EcoSmart Hackathon 2025",
       description: "I was participated in the EcoSmart Hackathon 2025, organized by the School of Engineering and Technology, Centurion University of Technology and Management, Odisha on 18th – 19th February 2025. 🌱💡 The hackathon provided a dynamic platform to showcase innovation, problem-solving skills, and teamwork while working on creative and sustainable technology-driven solutions.",
       year: "2025",
-      link: "https://drive.google.com/file/d/1jFKBewDaE464ylAfkLOCC-dR39XP0Kfx/view"
+      link: "https://drive.google.com/file/d/1dE1C4cP8k0vojdklpthJFWi90ItGgcob/view?usp=drive_link"
     },
     {
       title: "Intra College Games & Sports 2022-23",
