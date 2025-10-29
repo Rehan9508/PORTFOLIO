@@ -4,6 +4,7 @@ import {
   SiNumpy,
   SiPandas,
   SiTableau,
+  SiPowerbi,
 } from 'react-icons/si'
 import { FaFileExcel } from 'react-icons/fa'
 import { DiPython } from 'react-icons/di'
@@ -15,6 +16,7 @@ function DataAnalysis() {
     { name: 'Matplotlib/Seaborn', icon: <DiPython />, color: '#3776ab' },
     { name: 'Excel', icon: <FaFileExcel />, color: '#217346' },
     { name: 'Tableau', icon: <SiTableau />, color: '#e97627' },
+    { name: 'Power BI', icon: <SiPowerbi />, color: '#F2C811' },
   ]
 
   return (
