@@ -45,7 +45,7 @@ function Achievements() {
       title: "Intra College Games & Sports 2022-23",
       description: "Proud to have participated in the Intra College Games & Sports 2022–23 at Centurion University, representing the CSE Department in Lawn Tennis (Singles). 🏸 Grateful for the opportunity to learn, compete, and grow through sports—balancing academics and athletics builds true discipline and teamwork. 💪",
       year: "2022",
-      link: "https://drive.google.com/file/d/15aMHXr-_ZNUjtypEDUa_nzcfaVSn-BKU/view"
+      link: "https://drive.google.com/file/d/1JuGhKp0dzilGK4xzoa7amoV4G-7f475t/view?usp=drive_link"
     }
   ];
 
