@@ -16,7 +16,7 @@ function Education() {
       degree: "12th Grade",
       location: "BiharSharif(Nalanda), India",
       period: "Intermediate – 79%, May 2020",
-      certificate: "https://drive.google.com/file/d/14-feDJWll8l1EwIWLkp_aBe93iOCxNPR/view?usp=drive_link"
+      certificate: "https://drive.google.com/file/d/1R2JXSsUoFFm6r09sRHJmRGJ4VL7BNzuD/view?usp=drive_link"
     },
     {
       institution: "ShantiKunj Public School",
