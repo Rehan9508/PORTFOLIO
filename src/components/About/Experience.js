@@ -39,7 +39,7 @@ function Experience() {
                   </p>
                   <p>
                     <a 
-                      href="https://www.geeksforgeeks.org/batch/placement-prep-paralakhemundi?tab=Contest" 
+                      href="https://www.geeksforgeeks.org/user/rehan_mallick_065/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       style={{ color: '#4169E1', textDecoration: 'none' }}
