@@ -32,10 +32,7 @@ function Experience() {
                 
                 <div className="experience-description">
                   <p>
-                    Solved 500+ coding problems across GeeksForGeeks, HackerRank, and Codeforces.
-                  </p>
-                  <p>
-                    <strong>GeeksForGeeks Certificate</strong> Successfully completed a 16-week course on GeeksForGeeks CUTM Training Program - Paralakhemundi Campus.
+                    Successfully completed a 16-week course on GeeksForGeeks CUTM Training Program - Paralakhemundi Campus where I had Solved 500+ coding problems in GeeksForGeeks.
                   </p>
                   <p>
                     <a 
