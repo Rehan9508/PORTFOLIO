@@ -1,8 +1,7 @@
 {
-  "version": 2,
-  "buildCommand": "cd PORTFOLIO && npm install && npm run build",
-  "outputDirectory": "PORTFOLIO/build",
-  "framework": null,
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "framework": "create-react-app",
   "rewrites": [
     {
       "source": "/(.*)",
