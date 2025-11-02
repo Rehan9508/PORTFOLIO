@@ -10,7 +10,7 @@ function Education() {
       institution: "Centurion University of Technology and Management",
       location: "Paralakhemundi, Odisha, India",
       period: "08/2022 - 05/2026",
-      gpa: "GPA: 9.0/10",
+      gpa: "CGPA: 9",
       description: "Pursuing Bachelor of Technology in Computer Science and Engineering with focus on software development, data structures, algorithms, and modern web technologies."
     },
     {
