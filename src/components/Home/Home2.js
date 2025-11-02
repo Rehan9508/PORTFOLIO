@@ -15,7 +15,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              As a passionate Data Scientist Engineer, I specialize in transforming complex data into actionable insights and intelligent solutions. My expertise spans across the entire data science pipeline, from data collection to model deployment.
+              As a passionate Data Science Engineer, I specialize in transforming complex data into actionable insights and intelligent solutions. My expertise spans across the entire data science pipeline, from data collection to model deployment.
               <br />
               <br />I am proficient in programming languages like
               <i>

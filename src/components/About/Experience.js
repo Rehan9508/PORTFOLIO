@@ -20,7 +20,7 @@ function Experience() {
               </div>
               
               <div className="experience-content">
-                <div className="experience-title" style={{ textAlign: 'center' }}>
+                <div className="experience-title" style={{ textAlign: 'center', color: '#6A0DAD' }}>
                   <span className="experience-emoji">👨‍💻</span>
                   Programming Skill
                 </div>
@@ -63,7 +63,7 @@ function Experience() {
               </div>
               
               <div className="experience-content">
-                <div className="experience-title" style={{ textAlign: 'center' }}>
+                <div className="experience-title" style={{ textAlign: 'center', color: '#6A0DAD' }}>
                   <span className="experience-emoji">🏆</span>
                   AGENTIC AI HACKATHON
                 </div>
@@ -75,7 +75,7 @@ function Experience() {
                 
                 <div className="experience-description">
                   <p>
-                    Participated in Agentic AI Hackathon for 3 days in Vizianagraram campus of centurion university of technology and management where I won in Hackathon of 50k prize pool.
+                    I had Participated in Agentic AI Hackathon for 3 days in Vizianagraram campus of centurion university of technology and management where I won in Hackathon of 50k prize pool.
                   </p>
                   <p>
                     Now I am working on Gram Tarang Food Testing Lab Website of my University in which Designing and adding machine learning tools for Automation.
@@ -106,7 +106,7 @@ function Experience() {
               </div>
               
               <div className="experience-content">
-                <div className="experience-title" style={{ textAlign: 'center' }}>
+                <div className="experience-title" style={{ textAlign: 'center', color: '#6A0DAD' }}>
                   <span className="experience-emoji">⚓</span>
                   MERCHANT NAVY
                 </div>
@@ -117,7 +117,7 @@ function Experience() {
                 
                 <div className="experience-description">
                   <p>
-                    I was Cleared the Indian Maritime University Common Entrance Text (IMUCET) exam. I have Provisional Rank Certificate where I got a overall Rank of 4883.
+                    I had Cleared the Indian Maritime University Common Entrance Text (IMUCET) exam. I have Provisional Rank Certificate where I got a overall Rank of 4883.
                   </p>
                   <p>
                     <a 

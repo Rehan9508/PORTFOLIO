@@ -1,29 +1,33 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Particle from '../Particle';
-import { FaGraduationCap } from 'react-icons/fa';
+import { FaGraduationCap, FaMapMarkerAlt } from 'react-icons/fa';
 
 function Education() {
   const educationData = [
     {
-      institution: "Centurion University of Technology and Management, Paralakhemundi",
       degree: "B.Tech in Computer Science and Engineering",
+      institution: "Centurion University of Technology and Management",
       location: "Paralakhemundi, Odisha, India",
-      period: "2022 – 2026"
+      period: "08/2022 - 05/2026",
+      gpa: "GPA: 9.0/10",
+      description: "Pursuing Bachelor of Technology in Computer Science and Engineering with focus on software development, data structures, algorithms, and modern web technologies."
     },
     {
+      degree: "Intermediate (12th Grade)",
       institution: "Allama Iqbal College",
-      degree: "12th Grade",
       location: "BiharSharif(Nalanda), India",
-      period: "Intermediate – 79%, May 2020",
-      certificate: "https://drive.google.com/file/d/1R2JXSsUoFFm6r09sRHJmRGJ4VL7BNzuD/view?usp=drive_link"
+      period: "May 2020",
+      gpa: "GPA: 79%",
+      description: "Completed Intermediate education with excellent academic performance, establishing a strong foundation for future studies."
     },
     {
+      degree: "Matriculation (10th Grade)",
       institution: "ShantiKunj Public School",
-      degree: "10th Grade",
       location: "Jehanabad, India",
-      period: "Matriculation – 63%, May 2018",
-      certificate: "https://drive.google.com/file/d/18bubq-9CjFH1w6qNtY7TyCDw33I898OE/view?usp=drive_link"
+      period: "May 2018",
+      gpa: "GPA: 63%",
+      description: "Successfully completed matriculation with good academic results, building a solid foundation for higher education."
     }
   ];
 
@@ -48,22 +52,34 @@ function Education() {
               {educationData.map((edu, index) => (
                 <div key={index} className="education-card">
                   <div className="education-card-content">
-                    <h3 className="education-institution">{edu.institution}</h3>
-                    <p className="education-degree">{edu.degree}</p>
-                    <p className="education-location"><em>{edu.location}</em></p>
-                    <p className="education-period">{edu.period}</p>
-                    {edu.certificate && (
-                      <p className="education-certificate">
-                        <a 
-                          href={edu.certificate} 
-                          target="_blank" 
-                          rel="noopener noreferrer"
-                          style={{ color: '#00bcd4', textDecoration: 'none' }}
-                        >
-                          🔗 View Certificate
-                        </a>
-                      </p>
-                    )}
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '10px' }}>
+                      <div style={{ flex: 1 }}>
+                        <h3 className="education-degree" style={{ color: '#4169E1', fontWeight: 'bold', marginBottom: '8px', fontSize: '1.3em' }}>
+                          {edu.degree}
+                        </h3>
+                        <p className="education-institution" style={{ fontSize: '1.1em', marginBottom: '10px' }}>
+                          {edu.institution}
+                        </p>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                          <p className="education-location" style={{ display: 'flex', alignItems: 'center', gap: '8px', margin: 0 }}>
+                            <FaMapMarkerAlt style={{ color: '#666' }} />
+                            <span>{edu.location}</span>
+                          </p>
+                          <p style={{ display: 'flex', alignItems: 'center', gap: '8px', margin: 0 }}>
+                            <FaGraduationCap style={{ color: '#666' }} />
+                            <span>{edu.gpa}</span>
+                          </p>
+                        </div>
+                        <p className="education-description" style={{ marginTop: '15px', color: '#666', fontSize: '0.95em' }}>
+                          {edu.description}
+                        </p>
+                      </div>
+                      <div style={{ marginLeft: '20px' }}>
+                        <p className="education-period" style={{ color: '#00bcd4', fontWeight: '500', fontSize: '1em' }}>
+                          {edu.period}
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               ))}

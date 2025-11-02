@@ -7,7 +7,7 @@ import DataAnalysis from "./DataAnalysis";
 import DatabaseManagement from "./DatabaseManagement";
 import Aboutcard from "./AboutCard";
 import Experience from "./Experience";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../Assets/MyPhoto.jpg";
 import Toolstack from "./Toolstack";
 import Concepts from "./Concepts";
 import ReactGA from "react-ga";
@@ -40,7 +40,21 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img 
+              src={laptopImg} 
+              alt="about" 
+              className="img-fluid" 
+              style={{
+                width: "300px",
+                height: "300px",
+                borderRadius: "50%",
+                objectFit: "cover",
+                border: "5px solid rgba(190, 80, 244, 0.3)",
+                boxShadow: "0 10px 30px rgba(0, 0, 0, 0.3)",
+                display: "block",
+                margin: "0 auto"
+              }}
+            />
           </Col>
         </Row>
         

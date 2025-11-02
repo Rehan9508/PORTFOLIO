@@ -39,7 +39,29 @@ function Projects() {
               imgPath={newImage}
               title="SATELLITE IMAGE SEGMENTATION"
               description="Developed a deep learning-based model to segment satellite images and classify different land cover types (e.g., water bodies, forest area, street). Preprocessed large satellite imagery datasets and applied data augmentation techniques. Trained a U-Net-based Convolutional Neural Network for pixel-wise image segmentation to assist in geographic and environmental analysis using high-resolution imagery."
-              link="https://github.com/rehanmajid95082"
+              link="https://github.com/Rehan9508/SATELLITE-IMAGE-SEGMENTATION"
+              liveLink="#"
+            />
+          </Col>
+        </Row>
+
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={6} className="project-card">
+            <ProjectCard
+              imgPath={newImage}
+              title="GRAM TARANG FOOD TESTING LAB WEBSITE"
+              description="A comprehensive full-stack web application built with MERN stack (MongoDB, Express.js, React.js, Node.js) for a NABL-accredited analytical testing laboratory. 🎯 Purpose: Serves as both a commercial testing facility portal and skill development hub for students, researchers, and industry professionals."
+              link="https://github.com/Rehan9508/GRAM-TARANG-FOOD-TESTING-LAB-GTFTL-"
+              liveLink="#"
+            />
+          </Col>
+
+          <Col md={6} className="project-card">
+            <ProjectCard
+              imgPath={newImage}
+              title="ESSE WEBSITE"
+              description="ESSE Naturals & Nutrition is a full‑stack e‑commerce platform built with Next.js (TypeScript/Tailwind) and a Python Flask AI service. It delivers a modern storefront, secure authentication, cart/checkout, Razorpay payments, and an admin dashboard for products, orders, users, and content. AI features (Google Gemini and BLIP) power automated product."
+              link="https://github.com/Rehan9508/ESSE-WEBSITE"
               liveLink="#"
             />
           </Col>

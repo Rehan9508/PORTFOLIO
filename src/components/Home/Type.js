@@ -9,7 +9,7 @@ function Type() {
           strings: [
             'Developer',
             'Software Engineer',
-            'Data Scientist Engineer',
+            'Data Science Engineer',
             'Open Source Contributor',
           ],
           autoStart: true,

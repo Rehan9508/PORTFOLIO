@@ -7,37 +7,37 @@ function Achievements() {
   const achievementsData = [
     {
       title: "GeeksForGeeks CERTIFICATE",
-      description: "GeeksForGeeks CERTIFICATE has successfully completed a 16-week course on GeeksForGeeks CUTM Training Program - Paralakhemundi Campus. Here's the certification link for verification",
+      description: "I had successfully completed a 16-week course on GeeksForGeeks CUTM Training Program - Paralakhemundi Campus. Here's the certification link for verification",
       year: "2025",
       link: "https://drive.google.com/file/d/1zTtg8JP4OuoJXs9hW4k_x1TAseYjIyd3/view?usp=drive_link"
     },
     {
       title: "Agentic AI Website Automation Hackathon Winner",
-      description: "I Won the Agentic AI Website Automation Hackathon last month from August 13th – 15th, 2025 held at Centurion University of Technology and Management, Vizianagaram.",
+      description: "I had Won the Agentic AI Website Automation Hackathon last month from August 13th – 15th, 2025 held at Centurion University of Technology and Management, Vizianagaram.",
       year: "2025",
       link: "https://drive.google.com/file/d/1oErUn3Nsnue1uVSaGQycTql92v1_o9iJ/view?usp=drive_link"
     },
     {
       title: "CodSoft Machine Learning Internship",
-      description: "I have successfully completed a 4-week virtual internship program in Machine Learning at CodSoft. This incredible opportunity allowed me to explore cutting-edge technologies, sharpen my skills, and contribute to impactful projects.",
+      description: "I had successfully completed a 4-week virtual internship program in Machine Learning at CodSoft. This incredible opportunity allowed me to explore cutting-edge technologies, sharpen my skills, and contribute to impactful projects.",
       year: "2024",
       link: "https://drive.google.com/file/d/1pWsKw1Dv3Q71T5roPgrU1n1uRGtJsGGk/view"
     },
     {
       title: "Cisco Python Essentials 1 Course",
-      description: "I've successfully completed the Python Essentials 1 course with the Cisco Networking Academy, in collaboration with the OpenEDG Python Institute! 🎉",
+      description: "I had successfully completed the Python Essentials 1 course with the Cisco Networking Academy, in collaboration with the OpenEDG Python Institute! 🎉",
       year: "2024",
       link: "https://drive.google.com/file/d/1tsJlx03I22QR4i1ohwXs0y0BeCr4eAc4/view"
     },
     {
       title: "CodeTantra Data Structures and Algorithms",
-      description: "I've completed the CodeTantra course in DATA STRUCTURE AND ALGORITHMS using C and received my certificate! It's been an incredible journey of learning and growth, and I can't wait to apply my newfound skills in the world of DATA SCIENCE. Here's to embracing new challenges and making a meaningful impact!",
+      description: "I had completed the CodeTantra course in DATA STRUCTURE AND ALGORITHMS using C and received my certificate! It's been an incredible journey of learning and growth, and I can't wait to apply my newfound skills in the world of DATA SCIENCE. Here's to embracing new challenges and making a meaningful impact!",
       year: "2024",
       link: "https://drive.google.com/file/d/1OnfAtN3ZktWbavV_vEC6ZC13qeGKh1_S/view"
     },
     {
       title: "EcoSmart Hackathon 2025",
-      description: "I was participated in the EcoSmart Hackathon 2025, organized by the School of Engineering and Technology, Centurion University of Technology and Management, Odisha on 18th – 19th February 2025. 🌱💡 The hackathon provided a dynamic platform to showcase innovation, problem-solving skills, and teamwork while working on creative and sustainable technology-driven solutions.",
+      description: "I had participated in the EcoSmart Hackathon 2025, organized by the School of Engineering and Technology, Centurion University of Technology and Management, Odisha on 18th – 19th February 2025. 🌱💡 The hackathon provided a dynamic platform to showcase innovation, problem-solving skills, and teamwork while working on creative and sustainable technology-driven solutions.",
       year: "2025",
       link: "https://drive.google.com/file/d/1dE1C4cP8k0vojdklpthJFWi90ItGgcob/view?usp=drive_link"
     },

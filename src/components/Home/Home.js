@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Type from "./Type";
 import Education from "../Education/Education";
@@ -83,16 +82,6 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} className="image-container">
-              <div className={`hero-image ${isVisible ? 'animate-in' : ''}`}>
-                <img src={homeLogo} alt="home pic" className="img-fluid" />
-                <div className="floating-elements">
-                  <div className="floating-icon floating-icon-1">💻</div>
-                  <div className="floating-icon floating-icon-2">⚡</div>
-                  <div className="floating-icon floating-icon-3">🚀</div>
-                </div>
-              </div>
-            </Col>
           </Row>
         </Container>
         
